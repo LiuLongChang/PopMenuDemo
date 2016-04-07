@@ -13,9 +13,28 @@
 		948A3D6C1CB64AE900C85DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D6A1CB64AE900C85DBF /* Main.storyboard */; };
 		948A3D6E1CB64AE900C85DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D6D1CB64AE900C85DBF /* Assets.xcassets */; };
 		948A3D711CB64AE900C85DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D6F1CB64AE900C85DBF /* LaunchScreen.storyboard */; };
+		948A3D811CB64AFD00C85DBF /* GlowImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 948A3D7A1CB64AFD00C85DBF /* GlowImageView.m */; };
+		948A3D821CB64AFD00C85DBF /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 948A3D7C1CB64AFD00C85DBF /* MenuButton.m */; };
+		948A3D831CB64AFD00C85DBF /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 948A3D7E1CB64AFD00C85DBF /* MenuItem.m */; };
+		948A3D841CB64AFD00C85DBF /* PopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 948A3D801CB64AFD00C85DBF /* PopMenu.m */; };
+		948A3D881CB654A600C85DBF /* FRDLivelyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 948A3D871CB654A600C85DBF /* FRDLivelyButton.m */; };
+		948A3D961CB6597000C85DBF /* pop_2FA@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D8A1CB6597000C85DBF /* pop_2FA@2x.png */; };
+		948A3D971CB6597000C85DBF /* pop_2FA@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D8B1CB6597000C85DBF /* pop_2FA@3x.png */; };
+		948A3D981CB6597000C85DBF /* pop_Message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D8C1CB6597000C85DBF /* pop_Message@2x.png */; };
+		948A3D991CB6597000C85DBF /* pop_Message@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D8D1CB6597000C85DBF /* pop_Message@3x.png */; };
+		948A3D9A1CB6597000C85DBF /* pop_Project@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D8E1CB6597000C85DBF /* pop_Project@2x.png */; };
+		948A3D9B1CB6597000C85DBF /* pop_Project@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D8F1CB6597000C85DBF /* pop_Project@3x.png */; };
+		948A3D9C1CB6597000C85DBF /* pop_Task@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D901CB6597000C85DBF /* pop_Task@2x.png */; };
+		948A3D9D1CB6597000C85DBF /* pop_Task@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D911CB6597000C85DBF /* pop_Task@3x.png */; };
+		948A3D9E1CB6597000C85DBF /* pop_Tweet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D921CB6597000C85DBF /* pop_Tweet@2x.png */; };
+		948A3D9F1CB6597000C85DBF /* pop_Tweet@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D931CB6597000C85DBF /* pop_Tweet@3x.png */; };
+		948A3DA01CB6597000C85DBF /* pop_User@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D941CB6597000C85DBF /* pop_User@2x.png */; };
+		948A3DA11CB6597000C85DBF /* pop_User@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 948A3D951CB6597000C85DBF /* pop_User@3x.png */; };
+		FF3E40DC7B2115A12A789072 /* libPods-PopMenuDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3326A51B9EA3A0F64305610E /* libPods-PopMenuDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3326A51B9EA3A0F64305610E /* libPods-PopMenuDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PopMenuDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		948A3D5E1CB64AE900C85DBF /* PopMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		948A3D621CB64AE900C85DBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		948A3D641CB64AE900C85DBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +45,30 @@
 		948A3D6D1CB64AE900C85DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		948A3D701CB64AE900C85DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		948A3D721CB64AE900C85DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948A3D791CB64AFD00C85DBF /* GlowImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowImageView.h; sourceTree = "<group>"; };
+		948A3D7A1CB64AFD00C85DBF /* GlowImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowImageView.m; sourceTree = "<group>"; };
+		948A3D7B1CB64AFD00C85DBF /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
+		948A3D7C1CB64AFD00C85DBF /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
+		948A3D7D1CB64AFD00C85DBF /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItem.h; sourceTree = "<group>"; };
+		948A3D7E1CB64AFD00C85DBF /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItem.m; sourceTree = "<group>"; };
+		948A3D7F1CB64AFD00C85DBF /* PopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenu.h; sourceTree = "<group>"; };
+		948A3D801CB64AFD00C85DBF /* PopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenu.m; sourceTree = "<group>"; };
+		948A3D861CB654A600C85DBF /* FRDLivelyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRDLivelyButton.h; sourceTree = "<group>"; };
+		948A3D871CB654A600C85DBF /* FRDLivelyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRDLivelyButton.m; sourceTree = "<group>"; };
+		948A3D8A1CB6597000C85DBF /* pop_2FA@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_2FA@2x.png"; sourceTree = "<group>"; };
+		948A3D8B1CB6597000C85DBF /* pop_2FA@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_2FA@3x.png"; sourceTree = "<group>"; };
+		948A3D8C1CB6597000C85DBF /* pop_Message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_Message@2x.png"; sourceTree = "<group>"; };
+		948A3D8D1CB6597000C85DBF /* pop_Message@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_Message@3x.png"; sourceTree = "<group>"; };
+		948A3D8E1CB6597000C85DBF /* pop_Project@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_Project@2x.png"; sourceTree = "<group>"; };
+		948A3D8F1CB6597000C85DBF /* pop_Project@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_Project@3x.png"; sourceTree = "<group>"; };
+		948A3D901CB6597000C85DBF /* pop_Task@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_Task@2x.png"; sourceTree = "<group>"; };
+		948A3D911CB6597000C85DBF /* pop_Task@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_Task@3x.png"; sourceTree = "<group>"; };
+		948A3D921CB6597000C85DBF /* pop_Tweet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_Tweet@2x.png"; sourceTree = "<group>"; };
+		948A3D931CB6597000C85DBF /* pop_Tweet@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_Tweet@3x.png"; sourceTree = "<group>"; };
+		948A3D941CB6597000C85DBF /* pop_User@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_User@2x.png"; sourceTree = "<group>"; };
+		948A3D951CB6597000C85DBF /* pop_User@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pop_User@3x.png"; sourceTree = "<group>"; };
+		CEEC154F942EC99F6EE9F464 /* Pods-PopMenuDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopMenuDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PopMenuDemo/Pods-PopMenuDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F2BE2C188F3CC3D95C9BCCFF /* Pods-PopMenuDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PopMenuDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PopMenuDemo/Pods-PopMenuDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +76,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF3E40DC7B2115A12A789072 /* libPods-PopMenuDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02FFE47530BB477B85DF2BEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2BE2C188F3CC3D95C9BCCFF /* Pods-PopMenuDemo.debug.xcconfig */,
+				CEEC154F942EC99F6EE9F464 /* Pods-PopMenuDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		253C124792F868C3D0205F75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3326A51B9EA3A0F64305610E /* libPods-PopMenuDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		948A3D551CB64AE900C85DBF = {
 			isa = PBXGroup;
 			children = (
 				948A3D601CB64AE900C85DBF /* PopMenuDemo */,
 				948A3D5F1CB64AE900C85DBF /* Products */,
+				02FFE47530BB477B85DF2BEF /* Pods */,
+				253C124792F868C3D0205F75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +121,9 @@
 		948A3D601CB64AE900C85DBF /* PopMenuDemo */ = {
 			isa = PBXGroup;
 			children = (
+				948A3D891CB6597000C85DBF /* pop_icon */,
+				948A3D851CB654A600C85DBF /* FRDLivelyButton */,
+				948A3D781CB64AFD00C85DBF /* PopMenu */,
 				948A3D641CB64AE900C85DBF /* AppDelegate.h */,
 				948A3D651CB64AE900C85DBF /* AppDelegate.m */,
 				948A3D671CB64AE900C85DBF /* ViewController.h */,
@@ -79,6 +145,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		948A3D781CB64AFD00C85DBF /* PopMenu */ = {
+			isa = PBXGroup;
+			children = (
+				948A3D791CB64AFD00C85DBF /* GlowImageView.h */,
+				948A3D7A1CB64AFD00C85DBF /* GlowImageView.m */,
+				948A3D7B1CB64AFD00C85DBF /* MenuButton.h */,
+				948A3D7C1CB64AFD00C85DBF /* MenuButton.m */,
+				948A3D7D1CB64AFD00C85DBF /* MenuItem.h */,
+				948A3D7E1CB64AFD00C85DBF /* MenuItem.m */,
+				948A3D7F1CB64AFD00C85DBF /* PopMenu.h */,
+				948A3D801CB64AFD00C85DBF /* PopMenu.m */,
+			);
+			path = PopMenu;
+			sourceTree = "<group>";
+		};
+		948A3D851CB654A600C85DBF /* FRDLivelyButton */ = {
+			isa = PBXGroup;
+			children = (
+				948A3D861CB654A600C85DBF /* FRDLivelyButton.h */,
+				948A3D871CB654A600C85DBF /* FRDLivelyButton.m */,
+			);
+			path = FRDLivelyButton;
+			sourceTree = "<group>";
+		};
+		948A3D891CB6597000C85DBF /* pop_icon */ = {
+			isa = PBXGroup;
+			children = (
+				948A3D8A1CB6597000C85DBF /* pop_2FA@2x.png */,
+				948A3D8B1CB6597000C85DBF /* pop_2FA@3x.png */,
+				948A3D8C1CB6597000C85DBF /* pop_Message@2x.png */,
+				948A3D8D1CB6597000C85DBF /* pop_Message@3x.png */,
+				948A3D8E1CB6597000C85DBF /* pop_Project@2x.png */,
+				948A3D8F1CB6597000C85DBF /* pop_Project@3x.png */,
+				948A3D901CB6597000C85DBF /* pop_Task@2x.png */,
+				948A3D911CB6597000C85DBF /* pop_Task@3x.png */,
+				948A3D921CB6597000C85DBF /* pop_Tweet@2x.png */,
+				948A3D931CB6597000C85DBF /* pop_Tweet@3x.png */,
+				948A3D941CB6597000C85DBF /* pop_User@2x.png */,
+				948A3D951CB6597000C85DBF /* pop_User@3x.png */,
+			);
+			path = pop_icon;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 948A3D751CB64AE900C85DBF /* Build configuration list for PBXNativeTarget "PopMenuDemo" */;
 			buildPhases = (
+				FD2479B279DABEF15D7951B9 /* Check Pods Manifest.lock */,
 				948A3D5A1CB64AE900C85DBF /* Sources */,
 				948A3D5B1CB64AE900C85DBF /* Frameworks */,
 				948A3D5C1CB64AE900C85DBF /* Resources */,
+				77EEB22FAA7E66C84A9ABE77 /* Embed Pods Frameworks */,
+				066876A647BA347847385AC3 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,13 +248,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				948A3D981CB6597000C85DBF /* pop_Message@2x.png in Resources */,
+				948A3DA11CB6597000C85DBF /* pop_User@3x.png in Resources */,
+				948A3D9B1CB6597000C85DBF /* pop_Project@3x.png in Resources */,
 				948A3D711CB64AE900C85DBF /* LaunchScreen.storyboard in Resources */,
+				948A3D9F1CB6597000C85DBF /* pop_Tweet@3x.png in Resources */,
 				948A3D6E1CB64AE900C85DBF /* Assets.xcassets in Resources */,
+				948A3D991CB6597000C85DBF /* pop_Message@3x.png in Resources */,
+				948A3D9D1CB6597000C85DBF /* pop_Task@3x.png in Resources */,
+				948A3D9A1CB6597000C85DBF /* pop_Project@2x.png in Resources */,
+				948A3D961CB6597000C85DBF /* pop_2FA@2x.png in Resources */,
+				948A3DA01CB6597000C85DBF /* pop_User@2x.png in Resources */,
+				948A3D9E1CB6597000C85DBF /* pop_Tweet@2x.png in Resources */,
+				948A3D9C1CB6597000C85DBF /* pop_Task@2x.png in Resources */,
 				948A3D6C1CB64AE900C85DBF /* Main.storyboard in Resources */,
+				948A3D971CB6597000C85DBF /* pop_2FA@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		066876A647BA347847385AC3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopMenuDemo/Pods-PopMenuDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77EEB22FAA7E66C84A9ABE77 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PopMenuDemo/Pods-PopMenuDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD2479B279DABEF15D7951B9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		948A3D5A1CB64AE900C85DBF /* Sources */ = {
@@ -150,7 +322,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				948A3D691CB64AE900C85DBF /* ViewController.m in Sources */,
+				948A3D881CB654A600C85DBF /* FRDLivelyButton.m in Sources */,
+				948A3D811CB64AFD00C85DBF /* GlowImageView.m in Sources */,
 				948A3D661CB64AE900C85DBF /* AppDelegate.m in Sources */,
+				948A3D831CB64AFD00C85DBF /* MenuItem.m in Sources */,
+				948A3D841CB64AFD00C85DBF /* PopMenu.m in Sources */,
+				948A3D821CB64AFD00C85DBF /* MenuButton.m in Sources */,
 				948A3D631CB64AE900C85DBF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +440,7 @@
 		};
 		948A3D761CB64AE900C85DBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2BE2C188F3CC3D95C9BCCFF /* Pods-PopMenuDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PopMenuDemo/Info.plist;
@@ -274,6 +452,7 @@
 		};
 		948A3D771CB64AE900C85DBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEEC154F942EC99F6EE9F464 /* Pods-PopMenuDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PopMenuDemo/Info.plist;
@@ -302,6 +481,7 @@
 				948A3D771CB64AE900C85DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
